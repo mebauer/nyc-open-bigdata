@@ -16,11 +16,11 @@ Author: Mark Bauer
 ![top-datasets.png](figures/top-datasets.png)
 
 
-## Top 10 Datasets with the Highest Number of Rows (No Taxi Data) on NYC Open Data
+## Top 10 Datasets with the Highest Number of Rows on NYC Open Data (Excluding Taxi Data)
 ![top-no-taxi.png](figures/top-no-taxi.png)
 
 
-## Top 10 Datasets with the Highest Number of Rows (Only Taxi Data) on NYC Open Data
+## Top 10 Datasets with the Highest Number of Rows on NYC Open Data (Only Taxi Data)
 ![top-taxi-data.png](figures/top-taxi-data.png)
 
 
