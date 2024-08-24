@@ -6,6 +6,15 @@ Author: Mark Bauer
 
 # Analysis
 
+| Metric              |      Value |
+|:--------------------|-----------:|
+| Number of datasets  |       2551 |
+| Number of agencies  |        203 |
+| Number of rows      | 5965741217 |
+| Number of views     |   27714004 |
+| Number of downloads |   11504042 |
+
+
 ## Dataset with the Highest Number of Rows on NYC Open Data
 | id        | name                | attribution                     |   count_rows |   viewCount |   downloadCount |
 |:----------|:--------------------|:--------------------------------|-------------:|------------:|----------------:|
