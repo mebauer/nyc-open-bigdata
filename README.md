@@ -8,11 +8,20 @@ Author: Mark Bauer
 
 | Metric              |      Value |
 |:--------------------|-----------:|
-| Number of datasets  |       2551 |
-| Number of agencies  |        203 |
-| Number of rows      | 5965741217 |
-| Number of views     |   27714004 |
-| Number of downloads |   11504042 |
+| Number of datasets  |       2491 |
+| Number of agencies  |        201 |
+| Number of rows      | 5965739051 |
+| Number of views     |   27761756 |
+| Number of downloads |   11529518 |
+
+
+![new-datasets.png](figures/new-datasets.png)
+
+
+![agency-median-rows.png](figures/agency-median-rows.png)
+
+
+![agency-sum-rows.png](figures/agency-sum-rows.png)
 
 
 ## Dataset with the Highest Number of Rows on NYC Open Data
