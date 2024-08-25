@@ -13,6 +13,7 @@ Author: Mark Bauer
 | Number of rows      | 5965739051 |
 | Number of views     |   27761756 |
 | Number of downloads |   11529518 |
+
 Table xx: Overview metrics of NYC Open Data
 
 
@@ -29,6 +30,9 @@ Figure xx: Top 10 Agencies with the Highest Total Number of Rows on NYC Open Dat
 
 
 # Dataset Analysis
+
+![central-tendency.png](figures/central-tendency.png)
+Figure xx: .
 
 ## Dataset with the Highest Number of Rows on NYC Open Data
 | id        | name                | attribution                     |   count_rows |   viewCount |   downloadCount |
