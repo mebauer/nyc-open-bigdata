@@ -17,22 +17,18 @@ Author: Mark Bauer
 Table xx: Overview metrics of NYC Open Data
 
 
-![new-datasets.png](figures/new-datasets.png)
-Figure xx: New Datasets per Year on NYC Open Data.
-
-
-![agency-median-rows.png](figures/agency-median-rows.png)
-Figure xx: Top 10 Agencies with the Highest Median Number of Rows per Dataset on NYC Open Data
-
-
 ![agency-sum-rows.png](figures/agency-sum-rows.png)
 Figure xx: Top 10 Agencies with the Highest Total Number of Rows on NYC Open Data.
 
 
-# Dataset Analysis
+![agency-median-rows.png](figures/agency-median-rows.png)
+Figure xx: Top 10 Agencies with the Highest Median Number of Rows per Dataset on NYC Open Data.
+
 
 ![central-tendency.png](figures/central-tendency.png)
-Figure xx: .
+Figure xx: Average Download Count with Error Bars per Dataset on NYC Open Data.
+
+# Dataset Analysis
 
 ## Dataset with the Highest Number of Rows on NYC Open Data
 | id        | name                | attribution                     |   count_rows |   viewCount |   downloadCount |
@@ -65,3 +61,8 @@ Feel free to reach out.
 - LinkedIn: [markebauer](https://www.linkedin.com/in/markebauer/)   
 - Portfolio: [mebauer.github.io](https://mebauer.github.io/)
 - GitHub: [mebauer](https://github.com/mebauer)
+
+# Appendix
+
+![new-datasets.png](figures/new-datasets.png)
+Figure xx: New Datasets per Year on NYC Open Data.
