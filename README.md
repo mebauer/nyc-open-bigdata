@@ -6,24 +6,24 @@ Author: Mark Bauer
 
 # NYC Open Data Summary Statistics
 
-| Metric              |      Value |
-|:--------------------|-----------:|
-| Number of datasets  |       2491 |
-| Number of agencies  |        201 |
-| Number of rows      | 5965739051 |
-| Number of views     |   27761756 |
-| Number of downloads |   11529518 |
+| Metric              | Value         |
+|:--------------------|:--------------|
+| Number of datasets  | 2,491         |
+| Number of agencies  | 201           |
+| Number of rows      | 5,965,739,051 |
+| Number of views     | 27,761,756    |
+| Number of downloads | 11,529,518    |
 
 Table xx: Summary statistics of NYC Open Data.
 
 
 ![agency-sum-rows.png](figures/agency-sum-rows.png)
-Figure xx: Top 10 Agencies with the Highest Total Number of Rows on NYC Open Data.
+Figure xx: Top 10 Agencies by Total Number of Rows on NYC Open Data.
 
 
 
 ![agency-median-rows.png](figures/agency-median-rows.png)
-Figure xx: Top 10 Agencies with the Highest Median Number of Rows per Dataset on NYC Open Data.
+Figure xx: Top 10 Agencies by Median Number of Rows per Dataset on NYC Open Data.
 
 
 
