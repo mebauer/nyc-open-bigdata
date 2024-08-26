@@ -8,7 +8,6 @@ In this project, I aim to address several key questions: Can open data include B
 
 To explore these questions, I examined the row counts, download counts, and view counts of datasets on NYC Open Data, with the goal of understanding how big data is implemented and utilized on this platform.
 
-
 # Overview of NYC Open Data
 
 | Metric              | Value         |
@@ -20,6 +19,7 @@ To explore these questions, I examined the row counts, download counts, and view
 | Number of downloads |    11,529,518 |
 
 Table xx: Summary statistics of NYC Open Data. Note: This analysis only includes datasets with asset type as `dataset` and the display type as `table`, as well as datasets with at least one row.
+
 
 
 ![agency-sum-rows.png](figures/agency-sum-rows.png)
@@ -60,6 +60,14 @@ Figure xx: Top 10 Datasets by Number of Rows on NYC Open Data (Excluding Taxi Da
 ![top-taxi-data.png](figures/top-taxi-data.png)
 Figure xx: Top 10 Datasets by Number of Rows on NYC Open Data (Only Taxi Data).
 
+
+
+# Exporting Data
+There are two main methods to exporting a dataset on NYC Open Data: 1) Download files locally and 2) utilize the Socrata Open Data API (SODA API):
+
+1) Download files locally: The [data formats](https://dev.socrata.com/docs/formats/#,) to download tabular files locally are JSON, CSV, RDF, RSS, TSV, XML. For Geospatial data, these formats also include KML, KMZ, Shapefile and GeoJSON.
+
+2) Socrata Open Data API (SODA API): The “endpoint” of a [SODA API](https://dev.socrata.com/docs/endpoints) is simply a unique URL that represents an object or collection of objects. Every Socrata dataset, and even every individual data record, has its own endpoint. The Socrata API follows the REST (REpresentational State Transfer) design pattern. This means that the CRUD (Create, Read, Update, and Delete) operations are specified by using HTTP methods. The API supports filtering and querying via “Socrata Query Language” (SoQL), a simple, SQL-like query language specifically designed for making it easy to work with data on the web. Note: For performance, SODA APIs are paged, and return a maximum of 50,000 records per page.
 
 # Code 
 - The code to calculate count of rows for each dataset is located in the [data-export.ipynb](https://github.com/mebauer/nyc-open-bigdata/blob/main/data-export.ipynb) notebook.
