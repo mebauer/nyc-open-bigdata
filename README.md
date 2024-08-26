@@ -2,7 +2,7 @@
 Author: Mark Bauer
 
 # Introduction
-The Metropolitan Transportation Authority (MTA) recently released the 2023 and 2024 Subway Origin-Destination Ridership Estimates datasets on the New York State Open Data Portal. The 2023 dataset alone comprises approximately 116 million rows. While this dataset is fascinating, its massive size can pose challenges for users, even for experienced analyst and researchers. This prompted me to investigate the scale of the largest datasets available on NYC Open Data, and how users interact with these datasets compared to others.
+The Metropolitan Transportation Authority (MTA) recently released the [2023 and 2024 Subway Origin-Destination Ridership Estimates](https://new.mta.info/article/introducing-subway-origin-destination-ridership-dataset) datasets on the New York State Open Data Portal. The 2023 dataset alone comprises approximately 116 million rows. While this dataset is fascinating, its massive size can pose challenges for users, even for experienced analyst and researchers. This prompted me to investigate the scale of the largest datasets available on the [NYC Open Data](https://opendata.cityofnewyork.us/) Portal, and how users interact with these datasets compared to others.
 
 In this project, I aim to address several key questions: Can open data include Big Data? If so, what characteristics define an optimal open big data platform? How can open big data benefit a broad range of producers and users? Which agencies produce the largest datasets, and what methods do they use to support users? How does the size of a dataset impact its usage?
 
@@ -68,6 +68,16 @@ Figure xx: Top 10 Datasets by Number of Rows on NYC Open Data (Only Taxi Data).
 
 # Data
 Data was retrieved from [NYC Open Data](https://opendata.cityofnewyork.us/).
+
+# Additional Resources
+NYC Open Data Portal
+- [NYC Open Data Dashboard](https://opendata.cityofnewyork.us/dashboard/)
+- [NYC Open Data Overview](https://opendata.cityofnewyork.us/overview/)
+- [NYC Open Data Laws and Reports](https://opendata.cityofnewyork.us/open-data-law/)
+
+NYC Taxi and Limousine Commission (TLC)
+- [TLC Data](https://home.nyc.gov/site/tlc/about/data.page): Aggregate and Raw Data
+- [TLC Trip Record Data](https://home.nyc.gov/site/tlc/about/tlc-trip-record-data.page)
 
 # Say Hello!
 Feel free to reach out.
