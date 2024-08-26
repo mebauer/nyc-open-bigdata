@@ -62,12 +62,20 @@ Figure xx: Top 10 Datasets by Number of Rows on NYC Open Data (Only Taxi Data).
 
 
 
-# Exporting Data
+# Results
+## Exporting Data on NYC Open Data
 There are two main methods to exporting a dataset on NYC Open Data: 1) Download files locally and 2) utilize the Socrata Open Data API (SODA API):
 
-1) Download files locally: The [data formats](https://dev.socrata.com/docs/formats/#,) to download tabular files locally are JSON, CSV, RDF, RSS, TSV, XML. For Geospatial data, these formats also include KML, KMZ, Shapefile and GeoJSON.
+1) Download Files Locally: You can download tabular data in various formats, including JSON, CSV, RDF, RSS, TSV, and XML. For geospatial data, additional formats such as KML, KMZ, Shapefile, and GeoJSON are also available.
 
-2) Socrata Open Data API (SODA API): The “endpoint” of a [SODA API](https://dev.socrata.com/docs/endpoints) is simply a unique URL that represents an object or collection of objects. Every Socrata dataset, and even every individual data record, has its own endpoint. The Socrata API follows the REST (REpresentational State Transfer) design pattern. This means that the CRUD (Create, Read, Update, and Delete) operations are specified by using HTTP methods. The API supports filtering and querying via “Socrata Query Language” (SoQL), a simple, SQL-like query language specifically designed for making it easy to work with data on the web. Note: For performance, SODA APIs are paged, and return a maximum of 50,000 records per page.
+2) Socrata Open Data API (SODA API): The [SODA API](https://dev.socrata.com/docs/endpoints) provides access via unique URLs, known as endpoints, that represent datasets or individual records. The API follows the REST (REpresentational State Transfer) design pattern, using HTTP methods for CRUD (Create, Read, Update, Delete) operations. It supports querying and filtering through the Socrata Query Language (SoQL), which is a SQL-like language tailored for web data. Note that for performance reasons, SODA APIs are paged and return a maximum of 50,000 records per page. More information on SODA API endpoints is available.
+
+Limitations: The methods mentioned above have some limitations. For instance, there is no support for columnar file formats such as [Parquet](https://parquet.apache.org/), an open-source column-oriented file format optimized for efficient data storage and retrieval. Additionally, the SODA API can experience performance issues due to the overhead associated with HTTP requests and responses, particularly when querying large volumes of data.
+
+## The Gold Standard: NYC Taxi and Limousine Commission (TLC)
+As highlighted earlier, many of the largest datasets on NYC Open Data originate from the NYC Taxi and Limousine Commission (TLC). It’s no surprise that these Taxi Trip Datasets are commonly used in big data tutorials, and popular cloud services often provide them for free as sample data. In addition to hosting annual datasets on NYC Open Data, TLC also offers Parquet file formats on their website, which are distributed via Amazon Web Services (AWS), specifically using Amazon CloudFront.
+
+These options cater to users who prefer accessing data either directly from NYC Open Data or through optimized Parquet files.
 
 # Code 
 - The code to calculate count of rows for each dataset is located in the [data-export.ipynb](https://github.com/mebauer/nyc-open-bigdata/blob/main/data-export.ipynb) notebook.
