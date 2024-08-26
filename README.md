@@ -63,7 +63,7 @@ Figure xx: Top 10 Datasets by Number of Rows on NYC Open Data (Only Taxi Data).
 
 
 # Results
-## Exporting Data on NYC Open Data
+## The User Journey: Exporting Data on NYC Open Data
 There are two main methods to exporting a dataset on NYC Open Data: 1) Download files locally and 2) utilize the Socrata Open Data API (SODA API):
 
 1) Download Files Locally: You can download tabular data in various formats, including JSON, CSV, RDF, RSS, TSV, and XML. For geospatial data, additional formats such as KML, KMZ, Shapefile, and GeoJSON are also available.
@@ -73,9 +73,9 @@ There are two main methods to exporting a dataset on NYC Open Data: 1) Download 
 Limitations: The methods mentioned above have some limitations. For instance, there is no support for columnar file formats such as [Parquet](https://parquet.apache.org/), an open-source column-oriented file format optimized for efficient data storage and retrieval. Additionally, the SODA API can experience performance issues due to the overhead associated with HTTP requests and responses, particularly when querying large volumes of data.
 
 ## The Gold Standard: NYC Taxi and Limousine Commission (TLC)
-As highlighted earlier, many of the largest datasets on NYC Open Data originate from the NYC Taxi and Limousine Commission (TLC). It’s no surprise that these Taxi Trip Datasets are commonly used in big data tutorials, and popular cloud services often provide them for free as sample data. In addition to hosting annual datasets on NYC Open Data, TLC also offers Parquet file formats on their website, which are distributed via Amazon Web Services (AWS), specifically using Amazon CloudFront.
+As highlighted earlier, many of the largest datasets on NYC Open Data originate from the NYC Taxi and Limousine Commission (TLC). It’s no surprise that these Taxi Trip Datasets are commonly used in big data tutorials, and popular cloud services often provide them for free as sample data. In addition to hosting datasets (typically by year) on NYC Open Data, TLC also offers Parquet file formats on their website, which are distributed via Amazon Web Services (AWS), specifically using Amazon CloudFront.
 
-These options cater to users who prefer accessing data either directly from NYC Open Data or through optimized Parquet files.
+These options cater to both types of users: those who prefer accessing data directly from NYC Open Data and those who opt for optimized Parquet files.
 
 # Code 
 - The code to calculate count of rows for each dataset is located in the [data-export.ipynb](https://github.com/mebauer/nyc-open-bigdata/blob/main/data-export.ipynb) notebook.
