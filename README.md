@@ -73,7 +73,8 @@ Data was retrieved from [NYC Open Data](https://opendata.cityofnewyork.us/).
 
 Socrata: NYC Open Data runs on the [Socrata Platform](https://dev.socrata.com/).
 - [Socrata - Home](https://dev.socrata.com/)
-- [Socrata System Architecture](https://open-source.socrata.com/architecture/)  
+- [Socrata System Architecture](https://open-source.socrata.com/architecture/): This blog post from SODA 2.0 was originally released in 2011.  
+
 Note: Socrata was acquired by Tyler Technologies in 2018 and is now the Data and Insights division of Tyler.
 
 NYC Open Data Portal
