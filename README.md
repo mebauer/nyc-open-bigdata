@@ -2,11 +2,13 @@
 Author: Mark Bauer
 
 # Introduction
-The Metropolitan Transportation Authority (MTA) recently released the [2023 and 2024 Subway Origin-Destination Ridership Estimates](https://new.mta.info/article/introducing-subway-origin-destination-ridership-dataset) datasets on the New York State Open Data Portal. The 2023 dataset alone comprises approximately 116 million rows. While this dataset is fascinating, its massive size can pose challenges for users, even for experienced analysts and researchers. This prompted me to investigate sizes of the largest datasets available on the [NYC Open Data](https://opendata.cityofnewyork.us/) Portal, and how users interact with these datasets compared to others.
+The Metropolitan Transportation Authority (MTA) recently released the [2023 and 2024 Subway Origin-Destination Ridership Estimates](https://new.mta.info/article/introducing-subway-origin-destination-ridership-dataset) datasets on the New York State Open Data Portal. The 2023 dataset alone comprises approximately 116 million rows. While this dataset is fascinating, its massive size can pose challenges for users, even for experienced analysts and researchers. This prompted me to investigate the sizes of the largest datasets available on the [NYC Open Data](https://opendata.cityofnewyork.us/) Portal and how users interact with these datasets compared to others.
 
-In this project, I examined the row counts, download counts, and view counts of datasets on NYC Open Data, with the goal of understanding how the size of a dataset impacts its usage.
+This project aims to:
 
-This analysis also raised additional questions: Can open data include Big Data? If so, what characteristics define an optimal open big data platform? How can open big data benefit a broad range of producers and users? Which agencies produce the largest datasets, and what methods do they use to support users?
+1. *Investigate Dataset Sizes*: Examine the largest datasets available on the NYC Open Data Portal.
+2. *Analyze Usage Patterns*: Analyze row counts, download counts, and view counts to understand how these large datasets are used.
+3. *Explore Broader Implications*: Address broader questions such as whether open data include Big Data? If so, what characteristics define an optimal open big data platform? How can open big data benefit a broad range of producers and users? Which agencies produce the largest datasets, and what methods do they use to support users?
 
 # Overview of NYC Open Data
 
@@ -18,7 +20,7 @@ This analysis also raised additional questions: Can open data include Big Data? 
 | Number of views     |    27,761,756 |
 | Number of downloads |    11,529,518 |
 
-Table xx: Summary statistics of NYC Open Data. Note: This analysis only includes datasets with asset type as `dataset` and the display type as `table`, as well as datasets with at least one row.
+Table xx: Summary statistics of NYC Open Data. Note: This analysis only includes datasets with asset type as *dataset* and the display type as *table*, as well as datasets with at least one row.
 
 
 
