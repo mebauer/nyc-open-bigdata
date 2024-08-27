@@ -8,7 +8,7 @@ This project aims to:
 
 1. **Investigate Dataset Sizes**: Examine the largest datasets available on the NYC Open Data Portal.
 2. **Analyze Usage Patterns**: Analyze row counts, download counts, and view counts to understand how these large datasets are used.
-3. **Explore Broader Implications**: Address broader questions such as whether open data include Big Data? If so, what characteristics define an optimal open big data platform? How can open big data benefit a broad range of producers and users? Which agencies produce the largest datasets, and what methods do they use to support users?
+3. **Explore Broader Implications**: Address broader questions such as whether open data can include Big Data? If so, what characteristics define an optimal open big data platform? How can open big data benefit a broad range of producers and users? Which agencies produce the largest datasets, and what methods do they use to support users?
 
 # Overview of NYC Open Data
 
