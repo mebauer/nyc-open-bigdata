@@ -40,7 +40,7 @@ Figure xx: Boxplots of Download Counts by Number of Rows on NYC Open Data.
 
 
 ![central-tendency.png](figures/central-tendency.png)
-Figure xx: Average Download Count with Error Bars on NYC Open Data.
+Figure xx: Total and Average Download Count with IQR Error Bars on NYC Open Data.
 
 # Dataset Analysis
 
